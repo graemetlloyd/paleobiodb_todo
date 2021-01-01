@@ -1,0 +1,6 @@
+"max_val"
+"collection" 216942
+"occurrence" 1541750
+"opinion" 817986
+"reference" 75017
+"taxon" 431560

@@ -13,7 +13,7 @@ MostRecents <- list(
 )
 
 # For each type of data:
-for(i in names(CurrentMostRecent)) {
+for(i in names(MostRecents)) {
   
   # Set requests (values to ask database for):
   Requests <- (floor(MostRecents[[i]]$max / 10) * 10) + seq(from = 0, to = IncrementSize - 1, length.out = IncrementSize)
